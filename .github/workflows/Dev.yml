@@ -8,11 +8,11 @@ on:
       - 'develop'
   push:
     branches: 
-      - 'develop'
+      - 'main'
 jobs:
   entornoDesarrollo:
 
-    runs-on: serverDesarrollo
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 16.17.0

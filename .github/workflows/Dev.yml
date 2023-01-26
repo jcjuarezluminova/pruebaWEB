@@ -37,6 +37,5 @@ jobs:
         shell: powershell
       - name: Remplazar Compilacion
         run: |
-          cd C:\actions-runner\actions-runner\O2I\O2I\frontEnd\dist
-          move .\o2i\* "F:\Web\O2I_Reportes_Web\"
+          move .\dist\* "F:\Web\O2I_Reportes_Web\"
         shell: powershell 

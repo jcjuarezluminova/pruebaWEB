@@ -30,7 +30,7 @@ jobs:
         run: |
           npm run build
         env:
-          First_Name: VUE_APP_API = http://172.173.239.94:8090/
+          VUE_APP_API: http://172.173.239.94:8090/
         shell: cmd
       - name: Limpiar Carpeta
         run: |
